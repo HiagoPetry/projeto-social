@@ -41,3 +41,21 @@ iframe#tela {
     width: 270px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*pra deixar o botão redondo*/
+    box-shadow: 2px 2px 5px rgba(0,0,0,0,400);
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid gray;
+    transform: translate(-3px, -3px); /*pra mecher o botão pra cima e lado quando passa o mouse*/
+    box-shadow: 5px 5px 10px rgba(0,0,0,0,650);
+    transition: transform .2s;
+}
